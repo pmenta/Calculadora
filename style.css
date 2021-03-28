@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 250px;
+}
+
+.resultado input {
+    width: 210px;
+    outline: none;
+    border: none;
+}
+
+.calc__buttons input{
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin-top: 3px;
+}

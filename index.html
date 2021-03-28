@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="resultado">
+            <input type="text" id="visor">
+        </div>
+        <div class="calc__buttons">
+            <div class="primeiro">
+            <input type="button" value="7" onclick="botao(value)">
+            <input type="button" value="8" onclick="botao(value)">
+            <input type="button" value="9" onclick="botao(value)">
+            <input type="button" value="/" onclick="divide(value)">
+        </div>
+        <div class="segundo">
+            <input type="button" value="4" onclick="botao(value)">
+            <input type="button" value="5" onclick="botao(value)">
+            <input type="button" value="6" onclick="botao(value)">
+            <input type="button" value="*" onclick="multiplica(value)">
+        </div>
+        <div class="terceiro">
+            <input type="button" value="1" onclick="botao(value)">
+            <input type="button" value="2" onclick="botao(value)">
+            <input type="button" value="3" onclick="botao(value)">
+            <input type="button" value="-" onclick="subtrai(value)">
+        </div>
+        <div class="quarto">
+            <input type="button" value="C" onclick="reseta()">
+            <input type="button" value="0" onclick="botao(value)">
+            <input type="button" value="=" onclick="calcula()">
+            <input type="button" value="+" onclick="soma(value)">
+        </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
